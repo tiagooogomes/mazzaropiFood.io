@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+    <html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>MAZZAROPI | FOOD</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon" />
+    </head>
+    <body>
+        <main>
+            <h1>MAZZAROPI</h1>
+            <h2>food</h2>
+            <form id="formulario">
+                <div id="wrap">
+                    <fieldset>
+                        <legend>PÃO</legend>
+                        <div>
+                            <label>Francês</label>
+                            <h4>..............R$3,00...............</h4>
+                            <input type="radio" id="frances" name="pao" >
+                        </div>
+                        <div>
+                            <label>Astrauliano</label>
+                            <h4>.........R$8,00.........</h4>
+                            <input type="radio" id="astrauliano" name="pao" >
+                        </div>
+                        <div>                                   
+                            <label>Brioche</label>
+                            <h4>...............R$3,00..............</h4>
+                            <input type="radio" id="brioche" name="pao" >
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>BURGUER</legend>
+                        <div>
+                            <label>Picanha</label>
+                            <h4>.........R$13,00.........</h4>
+                            <input type="radio" id="picanha" name="burger">
+                        </div>
+                            <div>                       
+                            <label>Costela</label>
+                            <h4>.........R$10,00.........</h4>
+                            <input type="radio" id="costela" name="burger">
+                        </div>
+                        <div>                                    
+                            <label>Vegano</label>
+                            <h4>..........R$12,00..........</h4>
+                            <input type="radio" id="vegano" name="burger">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>SALADA</legend>
+                        <div>
+                            <label>Alface</label>
+                            <h4>............R$1,50............</h4>
+                            <input type="checkbox" id="alface">
+                        </div>
+                            <div>                     
+                            <label>Tomate</label>
+                            <h4>..........R$1,50..........</h4>
+                            <input type="checkbox" id="tomate">
+                        </div>
+                        <div>
+                            <label>Sem Salada</label>
+                            <h4>................</h4>
+                            <input type="checkbox" id="SNsalada">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>QUEIJO</legend>
+                        <div>                      
+                            <label>Mussarela</label>
+                            <h4>.......R$3,00.......</h4>
+                            <input type="checkbox" id="mussarela">
+                        </div>
+                            <div>           
+                            <label>Prato</label>
+                            <h4>...............R$3,00...............</h4>
+                            <input type="checkbox" id="prato">
+                        </div>    
+                        <div>   
+                            <label>Cheddar</label>
+                            <h4>..........R$5,00..........</h4>
+                            <input type="checkbox" id="cheddar">
+                        </div>
+                    </fieldset>
+                </div>
+                <div id="botoes">
+                    <input type="text" name="nome" placeholder="Nome">
+                    <input type="button" onclick="calculo()" value="FINALIZAR" />
+                </div>
+            </form>
+            <h2 id="quadro">PEDIDOS</h2>
+            <section id="pedidos">
+                <h2 id="pessoa"></h3>
+                <h3 id="total"></h3>
+                <div id="produtos">
+                    <h3>Pão</h3>
+                    <p id="pao"></p>
+                </div>
+                <div id="produtos">
+                    <h3>Burguer</h3>
+                    <p id="burguer"></p>
+                </div>
+                <div id="produtos">
+                    <h3>Salada</h3>
+                    <p id="pedidosAlface"></p>
+                    <p id="pedidosTomate"></p>
+                </div>
+                <div id="produtos">
+                    <h3>Queijo</h3>
+                    <p id="pedidosMussarela"></p>
+                    <p id="pedidosPrato"></p>
+                    <p id="pedidosCheddar"></p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h2>by. Aspirante Tiago Santos</h2>
+        </footer>
+        <script src="script.js" ></script>
+    </body>
+</html>

@@ -1,0 +1,169 @@
+main{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(2, 2, 2);
+    font-family: 'Outfit', sans-serif;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+}
+
+h1{
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: -50px;
+    margin-top: 0px;
+}
+
+h2{
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 55px;
+    color: #fbb941;
+    text-align: center;
+    margin-top: 0;
+}
+
+h3{
+     text-align: center;
+     margin: 0;
+     margin-top: -8px;
+     font-family: 'Cookie', cursive;
+     color: #fbb941;
+     font-weight: lighter;
+ }
+
+ #wrap{
+     flex-wrap: wrap;
+ }
+
+ h4{
+     font-weight: 700;
+     font-weight: lighter;
+     color: #fbb941;
+ }
+form{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+form div{
+    display: flex;
+    justify-content: space-around;
+}
+
+legend{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+fieldset{
+    width: 20%;
+    height: 300px;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset input{
+    width: 30px;
+    height: 30px;
+    
+}
+
+fieldset div{
+    justify-content: space-between
+    ;
+}
+
+label{
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+input[type="button"]{
+    width: 30%;
+    height: 60px;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 15px;
+}
+
+#pedidos{
+    width: 40%;
+    height: 550px;
+    margin-left: 30%;
+    border: 2px solid white ;
+    padding: 15px;
+}
+
+#produtos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#produtos h3{
+    font-size: 60px;
+}
+
+#quadro{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+input[type="text"]{
+    width: 29.4%;
+    height: 60px;
+    border: 2px solid white;
+    background-color: transparent;
+    color:white;
+    text-align: center;
+    font-size: 25px
+}
+
+input::placeholder{
+    font-size: 25px;
+    text-align: center;
+}
+
+#total{
+    font-size: 60px;
+    margin-top: -35px;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+footer h2{
+    color: black;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+}

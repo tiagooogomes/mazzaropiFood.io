@@ -35,7 +35,7 @@ function calculo(){
         pao.innerHTML = "Australiano";
     }
     else if(brioche.checked == true){
-        valorPao = 3.00
+        valorPao = 6.00
         pao.innerHTML = "Brioche";
     }
     else{
